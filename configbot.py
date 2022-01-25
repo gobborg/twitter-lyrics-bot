@@ -1,6 +1,10 @@
 import tweepy
 import random
+import random
 from random import sample
+
+print(os.getcwd())
+os.chdir(os.path.dirname(__file__))
 
 # To choose the line to tweet
 def random_line(possible_output):
