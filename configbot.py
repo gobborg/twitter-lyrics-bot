@@ -1,5 +1,5 @@
 import tweepy
-import random
+import os
 import random
 from random import sample
 
@@ -10,11 +10,10 @@ os.chdir(os.path.dirname(__file__))
 def random_line(possible_output):
         lines = possible_output
         return random.sample(lines, 1)[0] # n= the number of items to print
-#        print(random_line(possible_output))
+#       print(random_line(possible_output))
 
 def publictweet():
 	#blah blah blah this is where the tweet code happens
-
 	f = open("sorted-lyrics.txt","r")
 	all_lines = f.read().splitlines()
 	g = open("tweeted.txt","r") # a+ to read and append to the file
