@@ -1,3 +1,6 @@
+I wrote this for the Twitter v1 API.
+The new version, in PHP, runs on [archox.net](archox.net).
+
 # Twitter lyrics bot
 
 Twitter lyrics bot is a Python code to create a Twitter bot that tweets song lyrics.
